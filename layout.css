@@ -1,0 +1,19 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: snow;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+}
+#container1{
+    max-width: 500px;
+}
+li:nth-child(even){
+    background-color: lightgreen;
+}
